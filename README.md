@@ -19,7 +19,7 @@ Download the theme and move it to your BetterDiscord's theme forlder:
 #### Fonts
 - **[Windows](https://www.lifewire.com/installing-truetype-or-opentype-fonts-in-windows-1074134)**
 
-- **[Ubuntu](https://itsfoss.com/install-fonts-ubuntu/)**
+- **[Linux](https://itsfoss.com/install-fonts-ubuntu/)**
 
 *Zip file has attached font files.*
 
