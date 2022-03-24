@@ -12,6 +12,9 @@
 - SF Pro Display font
 
 # Installation:
-Download the theme and move it to your BetterDiscord's theme forlder.
+Download the theme and move it to your BetterDiscord's theme forlder:
+> [TranslucencePlus.zip](https://github.com/FurryOfficial/TranslucencePlus/releases/download/Release/TranslucencePlus.zip)
+
+*Zip file has attached font files.*
 
 # [My Discord server](https://discord.gg/YHsw9aDzG5)
