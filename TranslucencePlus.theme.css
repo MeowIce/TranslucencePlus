@@ -1,0 +1,155 @@
+/**
+ * @name Translucence Plus
+ * @version 1.0
+ * @description Theme trong suốt, làm mờ đẹp cho BetterDiscord. Modded bởi MeowIce#8543.
+ * @author MeowIce#8543
+ *
+ * @invite YHsw9aDzG5
+ */
+
+/*  Original Author: CapnKitten */
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+
+:root {
+	--app-bg: url(https://media.discordapp.net/attachments/877574383277834290/953991654518439936/translucence-plus.png);
+	--app-blur: 6px;
+	--app-margin: 0px;
+	--app-radius: 8px;
+	--app-accent-rgb: 118,210,233;
+	--app-accent-image: none;
+	--app-accent-text: #000; /*	-	*/
+
+	--sidebar-color: rgba(0,0,0,0.4);
+	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+
+	--messages-color: transparent;
+    --messages-padding: 0 0 0 72px;
+	--mentiona-alt: #5274e9; /*	-	*/
+	--messages-radius: 8px;
+	
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 2px;  /*	-	*/
+
+	--card-color: rgba(0,0,0, 0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #777; /*	-	*/
+
+	--background-modifier-hover: rgba(255,255,255,0.075);
+	--background-modifier-selected: rgba(255,255,255,0.125);
+	--button-color: #AEE1F6;
+    /* Phần font "SF Pro Display" này bạn vào folder 'fonts' để lấy nhe ! */
+    --font-primary: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    --font-display: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	}
+	.wrapper-30-Nkg.cozy-VmLDNB,
+	.wrapper-30-Nkg.compact-2Nkcau {
+    margin-left: 12px;
+    margin-right: 12px;
+	}
+
+	.avatar-2e8lTP {
+    top: unset;
+    left: 16px;
+	}
+
+	.repliedMessage-3Z6XBG:before {
+    transform: none;
+	}
+
+	.replyAvatar-sHd2sU,
+	.executedCommandAvatar-3oOnb1,
+	.repliedMessage-3Z6XBG > .replyBadge-LMm_Ic {
+    	margin-left: 0;
+	}
+.homeIcon-r0w4ny {
+    display: none;
+}
+
+.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub {
+    background-color: transparent;
+}
+
+.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub:before {
+    position: absolute;
+    content: " ";
+    width: 48px;
+    height: 48px;
+    background-image: url(https://media.discordapp.net/attachments/877574300679413812/944888319756619776/meow_uwu_avt.png);
+    background-size: contain;
+	border-radius: 40%;
+}
+.wrapper-30-Nkg.cozy-VmLDNB,
+.wrapper-30-Nkg.compact-2Nkcau {
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+}
+
+.avatar-2e8lTP {
+    top: unset;
+    left: 16px;
+}
+
+.repliedMessage-3Z6XBG:before {
+    transform: none;
+}
+
+.replyAvatar-sHd2sU,
+.executedCommandAvatar-3oOnb1,
+.repliedMessage-3Z6XBG > .replyBadge-LMm_Ic {
+    margin-left: 0;
+}
+
+.mentioned-Tre-dv,
+.replying-eZ7p5z {
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.mentioned-Tre-dv:before,
+.replying-eZ7p5z:before {
+    display: block;
+}
+
+.mentioned-Tre-dv {
+    --messages-color: rgba(var(--mention-rgb),0.2);
+}
+
+.replying-eZ7p5z {
+    --messages-color: rgba(var(--mention-alt),0.2);
+}
+
+.mentioned-Tre-dv:before {
+    background-color: rgb(var(--mention-rgb));
+}
+
+.replying-eZ7p5z:before {
+    background-color: rgb(var(--mention-alt));
+}
+.markup-eYLPri code,
+.spoilerText-27bIiA.hidden-3B-Rum {
+    --messages-color: rgba(39, 39, 39, 0.137);
+}
+.reaction-2A2y9y,
+.markup-eYLPri code,
+.spoilerText-27bIiA.hidden-3B-Rum {
+    --messages-color: rgba(0, 0, 0, 0.329);
+}
+.embedFull-1HGV2S,
+[class*=theme-] .invite-3uuHYQ,
+[class*=theme-] .wrapperAudio-1Bzv_Z,
+.wrapper-1HIH0j,
+.attachment-1PZZB2,
+[class*=theme-] .tile-2mmK5T,
+[class*=theme-] .tile-2mmK5T:hover {
+  background-color:rgba(39, 39, 39, 0.4);
+  border-radius: 6px;
+}
