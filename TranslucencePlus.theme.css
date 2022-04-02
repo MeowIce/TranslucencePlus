@@ -11,7 +11,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://media.discordapp.net/attachments/877574383277834290/953991654518439936/translucence-plus.png);
+	--app-bg: url(https://media.discordapp.net/attachments/877574383277834290/953573553918324766/tumblr_owqv4tMShU1u36eloo1_1280.png);
 	--app-blur: 6px;
 	--app-margin: 0px;
 	--app-radius: 8px;
@@ -26,7 +26,7 @@
     --messages-padding: 0 0 0 72px;
 	--mentiona-alt: #5274e9; /*	-	*/
 	--messages-radius: 8px;
-	
+
 	--textarea-color: 255,255,255;
 	--textarea-alpha: 0.1;
 	--textarea-alpha-focus: 0.15;
@@ -45,7 +45,7 @@
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
 	--button-color: #AEE1F6;
-    /* Phần font "SF Pro Display" này bạn vào folder 'fonts' để lấy nhe ! */
+    /* Phần font "SF Pro Display" này bạn inbox MeowIce#8543 để lấy nhe ! */
     --font-primary: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
     --font-display: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 	}
@@ -53,11 +53,6 @@
 	.wrapper-30-Nkg.compact-2Nkcau {
     margin-left: 12px;
     margin-right: 12px;
-	}
-
-	.avatar-2e8lTP {
-    top: unset;
-    left: 16px;
 	}
 
 	.repliedMessage-3Z6XBG:before {
@@ -93,7 +88,7 @@
     border: none;
 }
 
-.avatar-2e8lTP {
+.wrapper-30-Nkg.groupStart-3Mlgv1 .avatar-2e8lTP {
     top: unset;
     left: 16px;
 }
