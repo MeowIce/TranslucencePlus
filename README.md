@@ -3,9 +3,11 @@
 #### Modded by MeowIce#8543.
 
 # Preview:
+## Full transparent version:
+![image](https://user-images.githubusercontent.com/70711319/168981600-9d249479-a2d3-4096-85f2-6c8749d2e5be.png)
+
+## Solid version:
 ![image](https://user-images.githubusercontent.com/70711319/159843965-75663a99-a703-478a-a32b-2a3bdc8a0485.png)
-![image](https://user-images.githubusercontent.com/70711319/159843998-7e83aaae-e9f2-48f8-89a4-cc46f19cb25b.png)
-![image](https://user-images.githubusercontent.com/70711319/159844016-f09e2fd3-08b7-4ba5-8646-cc015e8f0a6c.png)
 
 # Requirements:
 - [BetterDiscord](https://betterdiscord.app/)
@@ -13,8 +15,21 @@
 
 # Installation:
 #### Theme
-Download the theme and move it to your BetterDiscord's theme forlder:
-> [TranslucencePlus.zip](https://github.com/FurryOfficial/TranslucencePlus/releases/download/Release/TranslucencePlus.zip)
+1. Clone the repo.
+2. Extract the files to a folder.
+
+3.1 **For Linux users (currently supported in GNOME 40+)**
+- Copy `TranslucencePlus.theme.css` to `~/.config/BetterDiscord/themes`.
+- Download [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extension.
+- Enable app blur and add `discord` to whitelist (found in `Application` tab).
+![image](https://user-images.githubusercontent.com/70711319/168983786-e38ef486-717c-41f9-a283-7889c1e532e0.png)
+- Enable Transparent window in BetterDiscord settings > Window preferences > Enable Transparency.
+![image](https://user-images.githubusercontent.com/70711319/168984207-3b09e0c5-eddb-4b6b-b224-f2b8b4682ec0.png)
+- Reload Discord and enable the theme in BD Themes settings.
+
+3.2 **For Windows and macOS users**
+- Copy `TranslucencePlusSolid.theme.css` to your BetterDiscord theme folder.
+- Enable the theme in DB's themes settings.
 
 #### Fonts
 - **[Windows](https://www.lifewire.com/installing-truetype-or-opentype-fonts-in-windows-1074134)**
@@ -22,37 +37,5 @@ Download the theme and move it to your BetterDiscord's theme forlder:
 - **[Linux](https://itsfoss.com/install-fonts-ubuntu/)**
 
 *Zip file has attached font files.*
-
-# Variables
-
-#### App elements
- - `--app-bg` - The background image for the entire Discord app. Default: `url(https://media.discordapp.net/attachments/877574383277834290/953991654518439936/translucence-plus.png)`
- - `--app-blur` - The strength of the blur for every element that has one. Default: `6px`
- - `--app-margin` - The margin surrounding the content area. Default: `0px`
- - `--app-radius` - The border radius of the app and every element that has a border radius. Default: `8px`
- - `--app-accent-rgb` - The rgb values of the app accent color. Default: `118,210,233`
- - `--app-accent-text` - The text color for buttons and other various elements with the accent background color. Default: `#000`
- - `--sidebar-color` - The background color of the sidebars. Default: `rgba(0,0,0, 0.4)`
- - `--main-content-color` - The background color of the main content areas. Default: `rgba(0,0,0, 0.2)`
-
-#### Messages
- - `--messages-color` - The background color for messages. Default: `transparent`
- - `--messages-radius` - The border radius for messages. Default: `8px``
- - `--mention-alt` - The border and glow color for highlighted messages that aren't mentions. Default: `#5274e9`
-
-#### Textareas and inputs
- - `--textarea-color` - The background color for any textareas and inputs. Default: `255,255,255`
- - `--textarea-text-color` - The text color for textareas and inputs. Default: `#fff`
- - `--textarea-radius` - The border radius for textareas (not inputs). Default: `2px`
-
-#### Cards
- - `--card-color` - The background color for cards. Default: `rgba(0,0,0, 0.4)`
- - `--card-color-hover` - The background color for hovering over cards (if there is a hover animation). Default: `rgba(0,0,0, 0.5)`
- - `--card-radius` - The border radius for cards. Default: `8px`
-
-#### Buttons
- - `--button-color` - The background color for most buttons. Default: `#AEE1F6`
- - `--button-radius` - The border radius for buttons. Default: `8px`
-
 
 # [My Discord server](https://discord.gg/YHsw9aDzG5)
