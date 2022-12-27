@@ -3,11 +3,8 @@
 #### Modded by MeowIce#8543.
 
 # Preview:
-## Full transparent version:
-![image](https://user-images.githubusercontent.com/70711319/168981600-9d249479-a2d3-4096-85f2-6c8749d2e5be.png)
-
-## Solid version:
-![image](https://user-images.githubusercontent.com/70711319/159843965-75663a99-a703-478a-a32b-2a3bdc8a0485.png)
+![image](https://user-images.githubusercontent.com/70711319/209673010-f65d94c2-7782-468a-aa98-28823d2f0ee0.png)
+![image](https://user-images.githubusercontent.com/70711319/209674206-4acab856-7ab8-4d3d-8c7e-8dad78d7a218.png)
 
 # Requirements:
 - [BetterDiscord](https://betterdiscord.app/)
@@ -28,13 +25,9 @@
 - Reload Discord and enable the theme in BD Themes settings.
 
 3.2 **For Windows and macOS users**
-- Copy `TranslucencePlusSolid.theme.css` to your BetterDiscord theme folder.
+- Copy `TranslucencePlus.theme.css` to your BetterDiscord theme folder.
+- Change `--app-bg` to your wallpaper/image.
 - Enable the theme in DB's themes settings.
-
-#### Fonts
-- **[Windows](https://www.lifewire.com/installing-truetype-or-opentype-fonts-in-windows-1074134)**
-
-- **[Linux](https://itsfoss.com/install-fonts-ubuntu/)**
 
 *Zip file has attached font files.*
 
