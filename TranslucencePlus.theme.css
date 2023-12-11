@@ -1,6 +1,6 @@
 /**
  * @name TranslucencePlus
- * @version 1.3
+ * @version 1.4
  * @description A translucent/frosted glass Discord theme
  * @author MeowIce
  *
@@ -10,7 +10,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: transparent;
+	--app-bg: url(https://media.discordapp.net/attachments/834266925482639382/1056967035566948462/wp6333916-anime-aesthetic-night-wallpapers.jpg);
 	--app-blur: 6px;
 	--app-margin: 0px;
 	--app-radius: 8px; /*	-	*/
@@ -33,6 +33,7 @@
 	--reply-saturation: 77.4%;
 	--reply-lightness: 61.8%;
 	--reply-opacity: 1; /*	-	*/
+	--mention-opacity: 0.25;
 
 	--textarea-color: 255,255,255;
 	--textarea-alpha: 0.1;
@@ -139,4 +140,7 @@
 
 .repliedMessage_e2bf4a .replyAvatar_cea07c {
   margin-left: 0;
+}
+.giftCodeContainer__7fa01 {
+	opacity: 0.8;
 }
