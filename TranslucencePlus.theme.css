@@ -1,6 +1,6 @@
 /**
  * @name TranslucencePlus
- * @version 1.4
+ * @version 1.5-20240814
  * @description A translucent/frosted glass Discord theme
  * @author MeowIce
  *
@@ -10,8 +10,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://media.discordapp.net/attachments/834266925482639382/1056967035566948462/wp6333916-anime-aesthetic-night-wallpapers.jpg);
-	--app-blur: 6px;
+	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
 	--app-margin: 0px;
 	--app-radius: 8px; /*	-	*/
 	
@@ -58,22 +57,14 @@
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
 	--font-primary: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
-  --font-display: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  	--font-display: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 .homeIcon-r0w4ny {
     display: none;
 }
-.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub:before {
-    position: absolute;
-    content: " ";
-    width: 48px;
-    height: 48px;
-    background-image: url(https://media.discordapp.net/attachments/1019856019419050074/1056207071428751451/meowIce.png);
-    background-size: contain;
-    border-radius: 40%;
-}
-.reaction-3vwAF2, .reaction-102jx9 {
-  background-color: rgba(0,0,0,0.2);
+
+.reaction_ec6b19 {
+  background-color: rgba(0,0,0,0.3);
   border-radius: var(--message-radius);
   border: none;
 }
@@ -88,7 +79,7 @@
 .attachment-1PZZB2,
 [class*=theme-] .tile-2mmK5T,
 [class*=theme-] .tile-2mmK5T:hover {
-    background-color:rgba(39, 39, 39, 0.4);
+    background-color:rgba(40, 40, 40, 0.4);
     border-radius: 6px;
 }
 .mentioned-Tre-dv {
@@ -141,6 +132,24 @@
 .repliedMessage_e2bf4a .replyAvatar_cea07c {
   margin-left: 0;
 }
-.giftCodeContainer__7fa01 {
-	opacity: 0.8;
+
+.embedHorizontal_dd276f {
+	border-radius: 16px;
+	background-color: rgb(40, 40, 40, 0.7);
+}
+
+.lookFilled_dd4f85 {
+	--button-background: rgb(90, 90, 90, 0.7);
+	--button-text-color: #fff;
+}
+
+.colorBrand_dd4f85 {
+	--button-background: hsla(var(--accent-hsl),var(--accent-opacity));
+	--button-text-color: var(--accent-text-color);
+}
+.itemCard_f02fcf, .wrapper_cd82a7, .outer_ac5d22, .padded_ac5d22, .interactive_ac5d22 {
+	background-color: rgb(40, 40, 40, 0.4);
+}
+.body_cd82a7, .inset_ac5d22 {
+	background-color: rgb(60, 60, 60, 0.5);
 }
